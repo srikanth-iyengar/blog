@@ -1,0 +1,7 @@
+[[hooks]]
+stage = "pre_build"
+command = "bash"
+command_arguments = [
+  "-c",
+  "./tailwind -i ./style/custom.css -o style/output.css -c ./tailwind.config.js",
+]

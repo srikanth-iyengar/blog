@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  @apply min-w-full max-w-7xl bg-black p-4 px-8;
+}
+.navbar ul {
+  @apply flex justify-center gap-6;
+}
+.navbar ul .nav-item {
+  @apply text-white text-lg cursor-pointer;
+}
+.navbar ul .nav-item:hover {
+  @apply text-gray-200;
+}
+
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  border-top: 1px solid #e5e5e5;
+}
+
+.copyright::before {
+  content: "©";
+  font-style: normal;
+}
+
+.heart::before {
+  content: "❤️";
+  font-style: normal;
+}
+
+/*# sourceMappingURL=custom.css.map */

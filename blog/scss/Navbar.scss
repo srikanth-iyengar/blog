@@ -1,0 +1,15 @@
+.navbar {
+  @apply min-w-full max-w-7xl bg-black p-4 px-8;
+
+  ul {
+    @apply flex justify-center gap-6;
+
+    .nav-item {
+      @apply text-white text-lg cursor-pointer;
+
+      &:hover {
+        @apply text-gray-200;
+      }
+    }
+  }
+}
